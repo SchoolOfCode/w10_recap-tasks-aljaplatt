@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.app {
+  display: flex;
+  justify-content: center;
+  background-color: #181818;
+}

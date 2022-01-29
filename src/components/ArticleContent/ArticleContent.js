@@ -1,13 +1,19 @@
 import React from "react";
+import css from "./Article.module.css";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 function ArticleContent({ title, text }) {
   return (
-    <section>
-      <h2>{title}</h2>
+    <section className={css.section}>
+      <h2 className={css.title}>{title}</h2>
       {text.map((p) => (
-        <p key={p.id}>{p.text}</p>
+        <p className={css.text} key={p.id}>
+          {p.text}
+        </p>
       ))}
-      <button>Like 👍</button>
+      <Button className={css.btn} colorScheme="teal" variant="solid">
+        Like 👍
+      </Button>
     </section>
   );
 }

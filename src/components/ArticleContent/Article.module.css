@@ -1,0 +1,19 @@
+.section {
+  margin-top: 2rem;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: skyblue;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  color: #fffae5;
+}
+
+p,
+.btn {
+  margin-top: 1rem;
+}

@@ -1,13 +1,15 @@
-import "./App.css";
-import articles from "../../libs/articles";
 import ArticleContainer from "../ArticleContainer/ArticleContainer";
+import Header from "../Header/Header";
+import css from "./App.module.css";
 
 function App() {
   return (
-    <main className="App">
-      <h1>WikiPigeon</h1>
-      <ArticleContainer />
-    </main>
+    <div>
+      <Header title={"Wiki"} sub={"Pigeon"} />
+      <main className={css.app}>
+        <ArticleContainer />
+      </main>
+    </div>
   );
 }
 

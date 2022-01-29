@@ -1,0 +1,12 @@
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: skyblue;
+  margin-top: 1rem;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  color: bisque;
+}
