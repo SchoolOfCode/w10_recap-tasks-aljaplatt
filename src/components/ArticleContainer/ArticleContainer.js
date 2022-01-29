@@ -6,9 +6,9 @@ import CommentSection from "../CommentSection/CommentSection";
 function ArticleContainer() {
   return (
     <div>
-      {articles.map((article, i) => {
+      {articles.map((article, id) => {
         return (
-          <div key={i}>
+          <div key={id}>
             <ArticleContent
               key={article.id}
               title={article.title}
