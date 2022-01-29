@@ -1,5 +1,7 @@
 import React from "react";
 import articles from "../../libs/articles";
+import ArticleContent from "../ArticleContent/ArticleContent";
+import CommentSection from "../CommentSection/CommentSection";
 
 function ArticleContainer() {
   return (
