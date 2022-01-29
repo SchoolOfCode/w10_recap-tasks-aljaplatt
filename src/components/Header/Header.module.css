@@ -17,6 +17,7 @@
 h1 {
   display: inline;
   letter-spacing: 2px;
+  padding: 0;
 }
 
 .wiki {

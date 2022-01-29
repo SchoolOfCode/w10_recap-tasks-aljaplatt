@@ -14,5 +14,9 @@
 
 .text {
   font-family: "Poppins", sans-serif;
-  color: bisque;
+  color: #ffe4c4;
+}
+
+p:last-of-type {
+  margin-bottom: 2rem;
 }
