@@ -12,7 +12,7 @@ function ArticleContainer() {
             <ArticleContent
               key={article.id}
               title={article.title}
-              paragraphs={article.paragraphs}
+              text={article.paragraphs}
             />
             {article.comments.map((comment) => {
               return (

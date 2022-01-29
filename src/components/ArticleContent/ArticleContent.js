@@ -1,10 +1,10 @@
 import React from "react";
 
-function ArticleContent({ title, paragraphs }) {
+function ArticleContent({ title, text }) {
   return (
     <section>
       <h2>{title}</h2>
-      {paragraphs.map((p) => (
+      {text.map((p) => (
         <p key={p.id}>{p.text}</p>
       ))}
       <button>Like 👍</button>
