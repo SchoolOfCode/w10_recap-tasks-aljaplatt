@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Article.module.css";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 function ArticleContent({ title, text }) {
   return (
