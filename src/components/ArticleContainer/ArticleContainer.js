@@ -2,13 +2,11 @@ import React from "react";
 import articles from "../../libs/articles";
 import ArticleContent from "../ArticleContent/ArticleContent";
 import CommentSection from "../CommentSection/CommentSection";
-import LogoutButton from "../LogOutButton/LogOutButton";
 import css from "./ArticleContainer.module.css";
 
 function ArticleContainer() {
   return (
     <div>
-      <LogoutButton />
       <section className={css.container}>
         <div>
           {articles.map((article, id) => {

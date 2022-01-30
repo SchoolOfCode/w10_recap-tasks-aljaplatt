@@ -1,7 +1,4 @@
-.logout {
-  position: absolute;
-  top: 0;
-  left: 0;
+.login {
   background: #008080;
   color: #fff;
   font-weight: bold;
